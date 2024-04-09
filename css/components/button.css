@@ -1,0 +1,16 @@
+.btn-blue {
+  background: radial-gradient(rgba(80, 80, 80, 0.6) 0%, rgba(80,80,80,0.85) 80%);
+  padding: 20px 24px;
+  border-style: solid;
+  border-color: rgb(10, 10, 10, 1.0);
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+.btn-blue:hover {
+  background: radial-gradient(rgba(30, 30, 30, 0.7) 0%, rgba(30,30,30,0.9) 80%);
+  border-color: rgb(10, 10, 10, 1.0);
+}
+

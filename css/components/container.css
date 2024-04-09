@@ -1,0 +1,44 @@
+.container {
+  width:900px;
+  margin: 40px auto;
+}
+
+.container img {
+  width: 900px;
+  object-fit: cover;
+}
+
+#love-photo {
+  max-height: 400px;
+}
+
+@media (max-width: 1050px) {
+  .container {
+    width: 700px;
+  }
+  #love-photo {
+    width: 700px;
+    max-height: 300px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  #love-photo {
+    width: 500px;
+    max-height: 215px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  #love-photo {
+    width: 300px;
+    max-height: 140px;
+  }
+}
+
+
